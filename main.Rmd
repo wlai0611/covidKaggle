@@ -4,3 +4,13 @@ author: "Walter"
 date: "March 28, 2020"
 output: html_document
 ---
+read in dataa
+```{r}
+train=read.csv("train.csv")
+```
+join the countries with their population data
+```{r}
+population=read.csv("population_by_country_2020.csv")
+merge(train,population,by.x="Country_Region",by.y="Country..or.dependency.",all.x = TRUE)
+```
+
