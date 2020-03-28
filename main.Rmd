@@ -1,0 +1,6 @@
+---
+title: "covidKaggle"
+author: "Walter"
+date: "March 28, 2020"
+output: html_document
+---
